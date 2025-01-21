@@ -10,6 +10,11 @@
         <actor id='a02'>
             <nom>Marc</nom>
         </actor>
+
+        <actor id='a03'>
+            <nom>Eduard</nom>
+            <edat>25</edat>
+        </actor>
     </llista_actors>
 
     <!-- Pelis -->
@@ -24,12 +29,23 @@
         </pelicula>
 
         <pelicula id='p02'>
-            <titol idioma='Català'>Mec</titol>
-            <director>Ernest</director>
-            <any>2004</any>
+            <titol idioma='Espanyol'>Idiomes</titol>
+            <director>Jaume</director>
+            <any>2014</any>
+            <actors>
+                <actor_ref ref='a02'/>
+                <actor_ref ref='a03'/>
+            </actors>
+        </pelicula>
+
+        <pelicula id='p03'>
+            <titol idioma='Anglès'>Death</titol>
+            <director>James Smith</director>
+            <any>1997</any>
             <actors>
                 <actor_ref ref='a01'/>
                 <actor_ref ref='a02'/>
+                <actor_ref ref='a03'/>
             </actors>
         </pelicula>
     </llista_pelicules>
@@ -37,7 +53,8 @@
     <!-- Recomenacions pelis -->
     <llista_recomenacions_pelicules>
         <!-- Pot estar tan buit com tenir varies recomenacions. -->
-        <!-- <recomenacio ref="p01"/> -->
-        <!-- <recomenacio ref="p02"/> -->
+        <recomenacio ref="p01"/>
+        <recomenacio ref="p02"/>
+        <recomenacio ref="p03"/>
     </llista_recomenacions_pelicules>
 </cataleg>
