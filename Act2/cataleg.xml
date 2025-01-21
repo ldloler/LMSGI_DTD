@@ -1,0 +1,43 @@
+<!DOCTYPE cataleg SYSTEM "cataleg.dtd">
+<cataleg>
+    <!-- Actors -->
+    <llista_actors>
+        <actor id='a01'>
+            <nom>Paco</nom>
+            <edat>21</edat>
+        </actor>
+
+        <actor id='a02'>
+            <nom>Marc</nom>
+        </actor>
+    </llista_actors>
+
+    <!-- Pelis -->
+    <llista_pelicules>
+        <pelicula id='p01'>
+            <titol idioma='Català'>Mec</titol>
+            <director>Ernest</director>
+            <any>2004</any>
+            <actors>
+                <actor_ref ref='a01'/>
+            </actors>
+        </pelicula>
+
+        <pelicula id='p02'>
+            <titol idioma='Català'>Mec</titol>
+            <director>Ernest</director>
+            <any>2004</any>
+            <actors>
+                <actor_ref ref='a01'/>
+                <actor_ref ref='a02'/>
+            </actors>
+        </pelicula>
+    </llista_pelicules>
+
+    <!-- Recomenacions pelis -->
+    <llista_recomenacions_pelicules>
+        <!-- Pot estar tan buit com tenir varies recomenacions. -->
+        <!-- <recomenacio ref="p01"/> -->
+        <!-- <recomenacio ref="p02"/> -->
+    </llista_recomenacions_pelicules>
+</cataleg>

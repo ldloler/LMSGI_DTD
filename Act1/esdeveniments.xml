@@ -1,0 +1,9 @@
+<!DOCTYPE esdeveniments SYSTEM "esdeveniments.dtd">
+<esdeveniments>
+    <esdeveniment>
+        <grup></grup>
+        <lloc></lloc>
+        <data></data>
+        <entrada gratuita="si"/>
+    </esdeveniment>
+</esdeveniments>
